@@ -95,11 +95,14 @@
 	.wrapper.style3 p {
 		color: rgba(255, 255, 255, 0.70);
 	}
+	body#vision {
+		background: #a753c2;
+	}
 
 
 
 /* Platform */
-	
+
 	.wrapper.style1 {
 		background-color: #C05D2E;
 	}
