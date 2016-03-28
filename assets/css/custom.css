@@ -1,0 +1,136 @@
+/* Fonts */
+	@font-face {
+		font-family: Montserrat-Bold;
+		src: url(../fonts/Montserrat-Bold.otf);
+	}
+	@font-face {
+		font-family: Montserrat-SemiBold;
+		src: url(../fonts/Montserrat-SemiBold.otf);
+	}
+	@font-face {
+		font-family: Montserrat-Light;
+		src: url(../fonts/Montserrat-Light.otf);
+	}
+
+
+
+/* Basic */
+	body {
+		background: #261C3E;
+	}
+
+
+
+/* Sidebar */
+
+	#sidebar {
+		background-image: url("images/intro.svg");
+		background-position: top right;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+	#sidebar img {
+		margin: 0 auto;
+	}
+	#sidebar nav > a:before, #sidebar nav > a:after {
+		border-radius: 0;
+		height: auto;
+		background: initial;
+	}
+	#sidebar nav li a:before {
+		background: #563784;
+	}
+
+
+
+/* Intro */
+
+	#intro {
+		background-image: url("images/banner.jpg");
+		background-size: cover;
+	}
+	#intro .inner {
+		text-align: center;
+		/*margin-top: 180px;*/
+	}
+	#intro h1 {
+		margin-bottom: 0px;
+		font-family: Montserrat-Bold;
+		font-size: 5em;
+		color: #333;
+	}
+	#intro h1 span {
+	}
+	#intro h1 span:nth-child(1) {
+		color: #944CAB;
+	}
+	#intro h1 span:nth-child(2) {
+		font-size: 0.5em;
+		color: #ddd;
+	}
+	#intro h1 span:nth-child(3) {
+		color: #EF742C;
+	}
+	#intro p {
+		font-family: Montserrat-Light;
+		font-size: 3em;
+		color: #ddd;
+	}
+
+
+
+/* Bios */
+
+	.wrapper.style2 {
+		background-color: #1179a2;
+	}
+
+
+
+/* Vision */
+
+	.wrapper.style3 {
+		background-color: #a753c2;
+	}
+	.wrapper.style3 p {
+		color: rgba(255, 255, 255, 0.70);
+	}
+
+
+
+/* Platform */
+	
+	.wrapper.style1 {
+		background-color: #C05D2E;
+	}
+
+
+
+/* Footer */
+
+	#footer {
+		background-color: #261C3E;
+	}
+
+
+
+
+/* Header */
+
+	header {
+		background-image: url("images/intro.svg");
+		background-position: top right;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+
+
+
+/* Joji */
+
+	body#joji div#wrapper {
+		background-color: #1179a2;
+	}
+	body#joji div#wrapper h1.major:after {
+		background-image: linear-gradient(to right, #37A9D6, #2184AB);
+	}
