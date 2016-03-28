@@ -103,6 +103,9 @@
 	.wrapper.style1 {
 		background-color: #C05D2E;
 	}
+	#three div.features span.icon::before {
+		color: #CC4E13;
+	}
 
 
 
