@@ -104,7 +104,12 @@
 	body#vision {
 		background: #a753c2;
 	}
-
+	body#vision div#wrapper h1.major:after {
+		background-image: -moz-linear-gradient(to right, #AB73BD, #A761BD);
+		background-image: -webkit-linear-gradient(to right, #AB73BD, #A761BD);
+		background-image: -ms-linear-gradient(to right, #AB73BD, #A761BD);
+		background-image: linear-gradient(to right, #AB73BD, #A761BD);
+	}
 
 
 /* Platform */
