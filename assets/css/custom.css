@@ -19,6 +19,10 @@
 		font-family: Aileron-Regular;
 		src: url(../fonts/Aileron-Regular.otf);
 	}
+	@font-face {
+		font-family: Aileron-Black;
+		src: url(../fonts/Aileron-Black.otf);
+	}
 
 
 
@@ -27,7 +31,7 @@
 		background: #261C3E;
 	}
 	h3, h4, h5, h6, p, td {
-		font-family: Aileron-Regular !important;
+		font-family: Aileron-Regular;
 	}
 
 
@@ -85,7 +89,9 @@
 	}
 	#intro p {
 		font-size: 1.9em;
-		color: #ddd;
+		/*color: #ddd;*/
+		font-family: Aileron-Black;
+		color: #252525;
 	}
 	#intro .montserrat-bold-font {
 		font-family: Montserrat-Bold;
@@ -95,7 +101,8 @@
 /* Bios */
 
 	.wrapper.style2 {
-		background-color: #1179a2;
+		/*background-color: #1179a2;*/
+		background-color: #252525;
 	}
 
 
@@ -181,13 +188,13 @@
 /* Page - Joji */
 
 	body#joji div#wrapper {
-		background-color: #1179a2;
+		background-color: #252525;
 	}
 	body#joji div#wrapper h1.major:after {
-		background-image: -moz-linear-gradient(to right, #37A9D6, #2184AB);
-  	background-image: -webkit-linear-gradient(to right, #37A9D6, #2184AB);
-  	background-image: -ms-linear-gradient(to right, #37A9D6, #2184AB);
-		background-image: linear-gradient(to right, #37A9D6, #2184AB);
+		background-image: -moz-linear-gradient(to right, #5A5A5A, #404040);
+  		background-image: -webkit-linear-gradient(to right, #5A5A5A, #404040);
+  		background-image: -ms-linear-gradient(to right, #5A5A5A, #404040);
+		background-image: linear-gradient(to right, #5A5A5A, #404040);
 	}
 
 
@@ -221,11 +228,12 @@
 /* Page - Endorsements */
 
 	body#endorsements div#wrapper {
-		background-color: #1179a2;
+		/*background-color: #1179a2;*/
+		background-color: #252525;
 	}
 	body#endorsements div#wrapper h1.major:after {
-		background-image: -moz-linear-gradient(to right, #37A9D6, #2184AB);
-  	background-image: -webkit-linear-gradient(to right, #37A9D6, #2184AB);
-  	background-image: -ms-linear-gradient(to right, #37A9D6, #2184AB);
-		background-image: linear-gradient(to right, #37A9D6, #2184AB);
+		background-image: -moz-linear-gradient(to right, #5A5A5A, #404040);
+  		background-image: -webkit-linear-gradient(to right, #5A5A5A, #404040);
+  		background-image: -ms-linear-gradient(to right, #5A5A5A, #404040);
+		background-image: linear-gradient(to right, #5A5A5A, #404040);
 	}
