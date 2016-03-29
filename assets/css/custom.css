@@ -95,9 +95,6 @@
 	.wrapper.style3 p {
 		color: rgba(255, 255, 255, 0.70);
 	}
-	body#vision {
-		background: #a753c2;
-	}
 
 
 
@@ -120,7 +117,6 @@
 
 
 
-
 /* Header */
 
 	header {
@@ -132,11 +128,36 @@
 
 
 
-/* Joji */
+/* Page - Joji */
 
 	body#joji div#wrapper {
 		background-color: #1179a2;
 	}
 	body#joji div#wrapper h1.major:after {
+		background-image: -moz-linear-gradient(to right, #37A9D6, #2184AB);
+    	background-image: -webkit-linear-gradient(to right, #37A9D6, #2184AB);
+    	background-image: -ms-linear-gradient(to right, #37A9D6, #2184AB);
 		background-image: linear-gradient(to right, #37A9D6, #2184AB);
+	}
+
+
+
+/* Page - Vision */
+
+	body#vision {
+		background-color: #a753c2;
+	}
+
+
+
+/* Page - Platform */
+	
+	body#platform {
+		background-color: #261C3E;
+	}
+	body#platform div#wrapper h1.major:after {
+	    background-image: -moz-linear-gradient(to right, #E29D7C, #DC672F);
+    	background-image: -webkit-linear-gradient(to right, #E29D7C, #DC672F);
+    	background-image: -ms-linear-gradient(to right, #E29D7C, #DC672F);
+		background-image: linear-gradient(to right, #E29D7C, #DC672F);
 	}
