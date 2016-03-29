@@ -132,6 +132,10 @@
 
 /* Endorsements */
 
+	.endorsement-message {
+		margin-bottom: 30px;
+	}
+
 	.photo-grid {
 		margin: 0 auto;
 		padding-top: 10px;
