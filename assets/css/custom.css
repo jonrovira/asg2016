@@ -11,6 +11,10 @@
 		font-family: Montserrat-Light;
 		src: url(../fonts/Montserrat-Light.otf);
 	}
+	@font-face {
+		font-family: Lovelo-Black;
+		src: url(../fonts/Lovelo-Black.otf);
+	}
 
 
 
@@ -55,7 +59,7 @@
 	}
 	#intro h1 {
 		margin-bottom: 0px;
-		font-family: Montserrat-Bold;
+		font-family: Lovelo-Black;
 		font-size: 5em;
 		color: #333;
 	}
@@ -76,7 +80,9 @@
 		font-size: 3em;
 		color: #ddd;
 	}
-
+	#intro .montserrat-bold-font {
+		font-family: Montserrat-Bold;
+	}
 
 
 /* Bios */
@@ -95,7 +101,6 @@
 	.wrapper.style3 p {
 		color: rgba(255, 255, 255, 0.70);
 	}
-
 
 
 /* Platform */
@@ -146,6 +151,12 @@
 
 	body#vision {
 		background-color: #a753c2;
+	}
+	body#vision div#wrapper h1.major:after {
+		background-image: -moz-linear-gradient(to right, #AB73BD, #A761BD);
+		background-image: -webkit-linear-gradient(to right, #AB73BD, #A761BD);
+		background-image: -ms-linear-gradient(to right, #AB73BD, #A761BD);
+		background-image: linear-gradient(to right, #AB73BD, #A761BD);
 	}
 
 
