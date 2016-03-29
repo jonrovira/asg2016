@@ -2,7 +2,7 @@
 Joji Syed and Archie Baskaran's campaign website for the 2016 Associated Student Government campaign at Northwestern University
 
 
-### Design and other credits
+# Design and other credits
 AJ
 n33.co @n33co dribbble.com/n33
 Hyperspace by HTML5 UP
