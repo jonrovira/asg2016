@@ -15,12 +15,19 @@
 		font-family: Lovelo-Black;
 		src: url(../fonts/Lovelo-Black.otf);
 	}
+	@font-face {
+		font-family: Aileron-Regular;
+		src: url(../fonts/Aileron-Regular.otf);
+	}
 
 
 
 /* Basic */
 	body {
 		background: #261C3E;
+	}
+	h3, h4, h5, h6, p, td {
+		font-family: Aileron-Regular !important;
 	}
 
 
@@ -62,13 +69,14 @@
 		font-family: Lovelo-Black;
 		font-size: 5em;
 		color: #333;
+		line-height: 60px;
 	}
 	#intro h1 span {
 	}
-	#intro h1 span:nth-child(1) {
+	#intro h1 > span:nth-child(1) {
 		color: #944CAB;
 	}
-	#intro h1 span:nth-child(2) {
+	#intro h1 > span:nth-child(2) {
 		font-size: 0.5em;
 		color: #ddd;
 	}
@@ -76,8 +84,7 @@
 		color: #EF742C;
 	}
 	#intro p {
-		font-family: Montserrat-Light;
-		font-size: 3em;
+		font-size: 1.9em;
 		color: #ddd;
 	}
 	#intro .montserrat-bold-font {
