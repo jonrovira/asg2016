@@ -122,6 +122,24 @@
 	}
 
 
+/* Endorsements */
+
+	.photo-grid {
+		margin: 0 auto;
+	}
+
+	.grid-item {
+		width: 320px;
+		padding: 10px;
+		background-color: white;
+		color: #261C3E;
+		margin-bottom: 20px;
+	}
+
+	.grid-item p {
+		margin-bottom: 0;
+	}
+
 
 /* Footer */
 
