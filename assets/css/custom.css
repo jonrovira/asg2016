@@ -30,7 +30,10 @@
 	body {
 		background: #261C3E;
 	}
-	h3, h4, h5, h6, p, td {
+	h1, h2, h3, h4 {
+		font-family: Lovelo-Black;
+	}
+	h5, h6, p, td {
 		font-family: Aileron-Regular;
 	}
 
