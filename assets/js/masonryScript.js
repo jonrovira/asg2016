@@ -1,4 +1,4 @@
-// endorsementsScript.js
+// masonryScript.js
 
 var $photoGrid = $('.photo-grid').masonry({
   itemSelector: '.grid-item',
