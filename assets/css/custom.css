@@ -124,6 +124,8 @@
 
 	.photo-grid {
 		margin: 0 auto;
+		padding-top: 10px;
+		padding-bottom: 18px;
 	}
 
 	.grid-item {
@@ -141,6 +143,10 @@
 
 	.grid-item p {
 		margin-bottom: 0;
+		font-weight: bold;
+		font-size: 0.7em;
+		color: #777;
+		text-transform: uppercase;
 	}
 
 	.small-grid {
@@ -179,8 +185,8 @@
 	}
 	body#joji div#wrapper h1.major:after {
 		background-image: -moz-linear-gradient(to right, #37A9D6, #2184AB);
-    	background-image: -webkit-linear-gradient(to right, #37A9D6, #2184AB);
-    	background-image: -ms-linear-gradient(to right, #37A9D6, #2184AB);
+  	background-image: -webkit-linear-gradient(to right, #37A9D6, #2184AB);
+  	background-image: -ms-linear-gradient(to right, #37A9D6, #2184AB);
 		background-image: linear-gradient(to right, #37A9D6, #2184AB);
 	}
 
@@ -201,13 +207,25 @@
 
 
 /* Page - Platform */
-	
+
 	body#platform {
 		background-color: #261C3E;
 	}
 	body#platform div#wrapper h1.major:after {
-	    background-image: -moz-linear-gradient(to right, #E29D7C, #DC672F);
-    	background-image: -webkit-linear-gradient(to right, #E29D7C, #DC672F);
-    	background-image: -ms-linear-gradient(to right, #E29D7C, #DC672F);
+    background-image: -moz-linear-gradient(to right, #E29D7C, #DC672F);
+  	background-image: -webkit-linear-gradient(to right, #E29D7C, #DC672F);
+  	background-image: -ms-linear-gradient(to right, #E29D7C, #DC672F);
 		background-image: linear-gradient(to right, #E29D7C, #DC672F);
+	}
+
+/* Page - Endorsements */
+
+	body#endorsements div#wrapper {
+		background-color: #1179a2;
+	}
+	body#endorsements div#wrapper h1.major:after {
+		background-image: -moz-linear-gradient(to right, #37A9D6, #2184AB);
+  	background-image: -webkit-linear-gradient(to right, #37A9D6, #2184AB);
+  	background-image: -ms-linear-gradient(to right, #37A9D6, #2184AB);
+		background-image: linear-gradient(to right, #37A9D6, #2184AB);
 	}
