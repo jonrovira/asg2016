@@ -66,7 +66,6 @@
 	}
 	#intro .inner {
 		text-align: center;
-		/*margin-top: 180px;*/
 	}
 	#intro h1 {
 		margin-bottom: 0px;
@@ -88,10 +87,9 @@
 		color: #EF742C;
 	}
 	#intro p {
-		font-size: 1.9em;
-		/*color: #ddd;*/
+		font-size: 1.4em;
 		font-family: Aileron-Black;
-		color: #252525;
+		color: #ddd;
 	}
 	#intro .montserrat-bold-font {
 		font-family: Montserrat-Bold;
@@ -101,7 +99,6 @@
 /* Bios */
 
 	.wrapper.style2 {
-		/*background-color: #1179a2;*/
 		background-color: #252525;
 	}
 
@@ -110,7 +107,7 @@
 /* Vision */
 
 	.wrapper.style3 {
-		background-color: #a753c2;
+		background-color: #8D3CA7;
 	}
 	.wrapper.style3 p {
 		color: rgba(255, 255, 255, 0.70);
@@ -124,6 +121,9 @@
 	}
 	#three div.features span.icon::before {
 		color: #CC4E13;
+	}
+	#three div.features section.inactive {
+		background-color: #B36139;
 	}
 
 
@@ -202,7 +202,7 @@
 /* Page - Vision */
 
 	body#vision {
-		background-color: #a753c2;
+		background-color: #8D3CA7;
 	}
 	body#vision div#wrapper h1.major:after {
 		background-image: -moz-linear-gradient(to right, #AB73BD, #A761BD);
@@ -219,10 +219,10 @@
 		background-color: #261C3E;
 	}
 	body#platform div#wrapper h1.major:after {
-    background-image: -moz-linear-gradient(to right, #E29D7C, #DC672F);
-  	background-image: -webkit-linear-gradient(to right, #E29D7C, #DC672F);
-  	background-image: -ms-linear-gradient(to right, #E29D7C, #DC672F);
-		background-image: linear-gradient(to right, #E29D7C, #DC672F);
+	    background-image: -moz-linear-gradient(to right, #5A5A5A, #404040);
+  		background-image: -webkit-linear-gradient(to right, #5A5A5A, #404040);
+  		background-image: -ms-linear-gradient(to right, #5A5A5A, #404040);
+		background-image: linear-gradient(to right, #5A5A5A, #404040);
 	}
 
 /* Page - Endorsements */
