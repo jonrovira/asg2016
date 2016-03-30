@@ -58,6 +58,9 @@
 	#sidebar nav li a:before {
 		background: #563784;
 	}
+	#sidebar nav a.support {
+		color: #EF742C;
+	}
 
 
 
