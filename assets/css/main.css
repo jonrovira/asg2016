@@ -3411,7 +3411,7 @@
 					margin-left: 1.75em;
 					padding: 0;
 					vertical-align: middle;
-				}	
+				}
 
 					#header > nav > ul > li img {
 						width: 60px;
@@ -3901,7 +3901,7 @@
 	#intro {
 		/*background-attachment: fixed;*/
 		background-image: url("images/intro.svg");
-		background-position: top right;
+		background-position: center;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 	}

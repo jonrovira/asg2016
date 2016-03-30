@@ -67,7 +67,8 @@
 /* Intro */
 
 	#intro {
-		background-image: url("images/banner.jpg");
+		/*background-image: url("images/banner.jpg");*/
+		background-image: url("images/banner-new.png");
 		background-size: cover;
 	}
 	#intro .inner {
