@@ -149,6 +149,7 @@
 	.grid-item {
 		width: 270px;
 		padding: 10px;
+		padding-bottom: 0;
 		background-color: white;
 		color: #261C3E;
 		margin-bottom: 20px;
@@ -168,12 +169,12 @@
 	}
 
 	.small-grid {
-		width: 220px;
+		width: 290px;
 	}
 
 	.small-grid img {
-		width: 200px;
-		height: 200px;
+		width: 270px;
+		height: 270px;
 	}
 
 
